@@ -35,7 +35,23 @@ header:hover{
 }
 
 
-main{
+div#description{
+  position: relative;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  opacity: 85%;
+  background-color: #b8bdc0;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  font-family: 'Philosopher', sans-serif;
+  color: #074a5d;
+}
+
+div#carousel{
   position: relative;
   margin-top: 30px;
   margin-right: auto;
