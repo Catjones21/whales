@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Philosopher&display=swap');
+
+body{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  background-color: #aadbe0;
+  opacity: 90%;
+
+}
+
+header{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-color: #077495;
+  color: #FFFFFF;
+  font-family: 'Norican', cursive;
+  font-size: 25px;
+
+
+}
+
+header:hover{
+  width: 60%;
+  background-color: #074a5d;
+  transition-duration: 2s;
+
+}
+
+
+div#description{
+  position: relative;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  opacity: 85%;
+  background-color: #b8bdc0;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  font-family: 'Philosopher', sans-serif;
+  color: #074a5d;
+}
+
+div#carousel{
+  position: relative;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  opacity: 85%;
+  background-color: #b8bdc0;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  font-family: 'Philosopher', sans-serif;
+  color: #074a5d;
+}
+
+footer{
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 10%;
+  height: auto;
+  padding: 1px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-color: #077495;
+  color: #FFFFFF;
+  font-family: 'Norican', cursive;
+
+}
+
+footer:hover {
+  width: 20%;
+  background-color: #074a5d;
+  transition-duration: 2s;
+}
+
+
+font-family: 'Norican', cursive;
+font-family: 'Philosopher', sans-serif;
