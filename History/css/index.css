@@ -1,6 +1,6 @@
 
 html, body {
-  background-image:url("../img/whalewhalewhale.jpg");
+  background-image:url("../img/whale.jpg");
   background-size: cover;
 
 
@@ -20,7 +20,7 @@ html, body {
 
 h1, h2, h3 {
 font-family: 'Norican';
-text-decoration: underline overline wavy #0caa94;
+text-decoration: underline overline wavy #88a8b4;
 display: block;
 text-transform: lowercase;
 text-shadow: 0 0 2px #1f3135;
@@ -58,7 +58,7 @@ header:hover{
 .columnqueen {
     column-count: 3;
     column-gap: 40px;
-    column-rule: 5px solid #009c84;
+    column-rule: 5px solid #88a8b4;
 
 
 }
