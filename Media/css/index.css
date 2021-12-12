@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Norican&family=Philosopher&display=swap');
 
-body{
-  margin-right: auto;
-  margin-left: auto;
-  padding: 40px;
-  background-color: #aadbe0;
-  opacity: 90%;
+body {
+  font-family: 'Philosopher'
+  background-color: #aadbe0
+}
+h3, h4 {
+  font-family: 'Norican', cursive;
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: black;
 
 }
+
 
 header{
   position: relative;
