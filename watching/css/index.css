@@ -1,11 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Norican&family=Philosopher&display=swap');
 
-body{
-  margin-right: auto;
-  margin-left: auto;
-  padding: 40px;
-  background-color: #aadbe0;
+html, body {
+  background-image:
+  radial-gradient(#d4e0e8, #6287a3, #163570);
+
+
+  }
+
+  body{
+  padding: 80px;
   opacity: 90%;
+  font-family: 'Philosopher', sans-serif;
+  font-size:18px;
+  color: #FFFFFF;
+  text-transform: lowercase;
+  text-shadow: 0 0 2px #1f3135;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+}
+
+h1, h2, h3 {
+font-family: 'Norican';
+text-decoration: underline wavy #7c92b7;
+display: block;
+text-transform: lowercase;
+text-shadow: 0 0 2px #1f3135;
+font-weight: bold;
+letter-spacing: 0.01em;
+word-spacing: 0.1em;
+color: #fff;
 
 }
 
@@ -14,57 +36,28 @@ header{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 50%;
+  width: 92%;
   height: auto;
   padding: 20px;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
-  background-color: #077495;
-  color: #FFFFFF;
-  font-family: 'Norican', cursive;
-  font-size: 25px;
+  background-color:rgba(192,192,192,0.6);
+
 
 
 }
 
 header:hover{
-  width: 60%;
+  width: 80%;
   background-color: #074a5d;
   transition-duration: 2s;
 
 }
 
+.columnqueen {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 5px solid #7c92b7;
 
-div#description{
-  position: relative;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 20px;
-  width: 70%;
-  height: auto;
-  opacity: 85%;
-  background-color: #b8bdc0;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
-  font-family: 'Philosopher', sans-serif;
-  color: #074a5d;
-}
 
-div#carousel{
-  position: relative;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 20px;
-  width: 70%;
-  height: auto;
-  opacity: 85%;
-  background-color: #b8bdc0;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
-  font-family: 'Philosopher', sans-serif;
-  color: #074a5d;
 }
 
 footer{
@@ -78,7 +71,7 @@ footer{
   padding: 1px;
   border-top-left-radius: 30%;
   border-bottom-right-radius: 30%;
-  background-color: #077495;
+  background-color: rgba(192,192,192,0.6);
   color: #FFFFFF;
   font-family: 'Norican', cursive;
 
@@ -89,7 +82,3 @@ footer:hover {
   background-color: #074a5d;
   transition-duration: 2s;
 }
-
-
-font-family: 'Norican', cursive;
-font-family: 'Philosopher', sans-serif;
